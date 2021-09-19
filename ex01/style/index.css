@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  padding: 0px 200px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.image_with_text {
+  text-align: justify;
+}
+.image_with_text img {
+  float: left;
+  width: 100%;
+  height: 25%;
+  object-fit: cover;
+  padding-bottom: 25px;
+}
+.image_with_text p {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.image_with_text h5 {
+    margin-left: 1.2em;
+}
